@@ -1,4 +1,4 @@
-# This file describes installing Jenkins in Ubuntu 14.04 server.
+# This file describes installing Jenkins and Git on same Ubuntu 14.04 server.
 
 1. Download Jenkins repository key to a file say "jenkins.key"
    $ wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key
@@ -25,7 +25,7 @@
     $ sudo apt-get install git
     
 7. Install Git plugin in Jenkins through UI.
-    On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Manage plugins" --> "Available" tab and select "Git plugin".
+    On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Manage plugins" --> "Available" tab and select "Git plugin" and "GitHub plugin".
 
 8. Click on "Install without restart". 
 
@@ -33,4 +33,7 @@
     $ sudo servioce jenkins restart
     
 10.Configure Git plugin with your Git username and mail id.
-    On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Configure System". Under "Git plugin" heading, add your GitHub username and mail id.
+    On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Configure System". 
+    Under "Git" heading, add "Git name" and Git executable located in the system.
+    Under "Git plugin" heading, add your GitHub username and mail id.
+    
