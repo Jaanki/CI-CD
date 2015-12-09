@@ -8,18 +8,18 @@
 
 4. Add the GitHub repo that you want to build.
 
-5. Select "Poll SCM" under "Build Triggers". 
+5. Select "Build when a change is pushed to GitHub" under "Build Triggers". 
 
-6. Under "Schedule", add "0 */3 * * *"
+6. You can add "Post build action" of your choice from the dropdown menu.
 
-7. You can add "Post build action" of your choice from the dropdown menu.
+7. Go to your GitHub repo's settings.
 
-8. Go to your GitHub repo's settings.
+8. Under "Webhooks and services" tab on left panel, go to "Services"
 
-9. Under "Webhooks and services" tab on left panel, go to "Services"
+9.Click on "Add service" and search for "jenkins" in the drop down list.
 
-10.Click on "Add service" and search for "jenkins" in the drop down list.
+10.Select "Jenkins (Git plugin)" and add Jenkins server's URL at appropraite location.
 
-11.Select "Jenkins (Git plugin)" and add Jenkins server's URL at appropraite location.
+11.Select "jenkins (GitHub plugin) and add Jenkins hook URL.
 
 12.Click on "Add service" and this service will be added.
