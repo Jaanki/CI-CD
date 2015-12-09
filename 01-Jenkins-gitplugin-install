@@ -35,5 +35,6 @@
 10.Configure Git plugin with your Git username and mail id.
     On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Configure System". 
     Under "Git" heading, add "Git name" and Git executable located in the system.
+    Under "Jenkins Location", add Jenkins URL and email id of the admin user.
     Under "Git plugin" heading, add your GitHub username and mail id.
     
