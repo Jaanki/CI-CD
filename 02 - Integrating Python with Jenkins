@@ -1,0 +1,12 @@
+# This file explains using Python in Jenkins by installing Python plugin
+
+1. Install available Python plugin in Jenkins
+     On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Manage plugins" --> "Available" tab and select "Python".
+     
+2. Restart Jenkins after successful installation.
+
+3. To configure Python installations, step in Manage Jenkins > Configure System. Then look for the Python section.
+     Python installed in your system will be auto-detected.
+     To add new Python, click on "Add Python" and fill in required fiels.
+
+4. Apply and Save these settings.
