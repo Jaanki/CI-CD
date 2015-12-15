@@ -16,7 +16,7 @@
 5. Install Jenkins
    $ sudo apt-get install jenkins
    
-   Jenkins will automatically start.
+6. Jenkins will automatically start.
 
-   Access its UI from URL:
-      http://jenkins_server_ip:8080
+7. Access its UI from URL:
+   http://jenkins_server_ip:8080
