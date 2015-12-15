@@ -1,0 +1,13 @@
+# This file explains integratig Jenkins with GitHub.
+
+1. Install Git on Ubuntu machine having Jenkins server.
+    $ sudo apt-get install git
+    
+2. Install GitHub plugin in Jenkins as we did for Python plugin.
+
+3. Configure GitHub plugin with your Git username and mail id.
+    On the left pane of Jenkins nome page, go to "Manage Jenkins" --> "Configure System". 
+    Under "Git" heading, add "Git name" and Git executable located in the system. This can be auto detected.
+    Under "Jenkins Location", add Jenkins URL and email id of the admin user.
+    Under "GitHub Plugin Configuration", add Github server config and check "Custom GitHub API URL".
+    Under "Git plugin" heading, add your GitHub username and mail id.
