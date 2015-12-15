@@ -1,0 +1,13 @@
+# This file describes creating a new Jenkins job and configuring it to use Python.
+
+1. Click on "create new jobs" on Dashboard.
+
+2. Enter the name of the project and check "Freestyle project".
+
+3. Under "Build" tab, select "Python Builder".
+
+4. Select "Nature" as "Python".
+
+5. Type "Python" in "Command" field.
+
+6. Configure appropriate "Post-Build actions" if required.
