@@ -1,0 +1,19 @@
+# This file explains cloning GitHub repo and trigerring Jenkins to build when a change is detected in GitHub repo.
+
+1. Select the project to be used. In our case, it will be the python project we created in step 2.
+
+2. Select "Git" under "Source Code Management" section.
+
+3. Add the GitHub repo that you want to build.
+
+4. Select "Build when a change is pushed to GitHub" under "Build Triggers". 
+
+5. Go to your GitHub repo's settings.
+
+6. Under "Webhooks and services" tab on left panel, go to "Services"
+
+7. Click on "Add service" and search for "jenkins" in the drop down list.
+
+8. Select "jenkins (GitHub plugin) and add Jenkins hook URL as http://jenkins_server_ip/github-webhook/
+
+9. Click on "Add service" and this service will be added.
