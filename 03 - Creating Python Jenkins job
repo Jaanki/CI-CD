@@ -8,6 +8,8 @@
 
 4. Select "Nature" as "Python".
 
-5. Type "Python" in "Command" field.
+5. Type "print "hello" in "Command" field.
 
 6. Configure appropriate "Post-Build actions" if required.
+
+7. Build the job. Check console output for "hello" printed.
